@@ -12,7 +12,7 @@ metadata:
     author: Sebastian Lehrig <Sebastian.Lehrig1@ibm.com>
 implementation:
   container:
-    image: quay.io/ibm/kubeflow-component-deploy-model-with-tfserving@sha256:3728c686ddc651f21f32b68d69a93e9829bfaa7837a1d5852fd48d797796a65c
+    image: image-registry.openshift-image-registry.svc:5000/example-health-sjz/usablepipeline@sha256:6f00c464335e07f855ce0bb10b70b2defd1f341486578a2df1482801c6bb3d12
     command:
     - bash
     - -exc
